@@ -28,9 +28,9 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Oswald', 'sans-serif'],
-        serif: ['Oswald', 'sans-serif'],
-        oswald: ['Oswald', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Inter', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       boxShadow: {
         card: '0 1px 4px rgba(45, 18, 25, 0.08), 0 4px 12px rgba(45, 18, 25, 0.05)',
