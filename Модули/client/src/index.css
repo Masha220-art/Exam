@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased text-banquet-ink;
+    font-size: 16px;
+    background-color: theme('colors.banquet.cream');
+  }
+
+  h1 {
+    font-size: 36px;
+    @apply font-bold;
+    color: #DC143C;
+  }
+
+  h2 {
+    font-size: 24px;
+    @apply font-semibold;
+    color: #DAA520;
+  }
+
+  h3 {
+    font-size: 18px;
+    @apply font-semibold;
+    color: #DAA520;
+  }
+
+  small, .text-secondary, .helper-text {
+    font-size: 12px;
+    color: #006400;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-lg transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn text-white bg-banquet-red shadow-sm;
+  }
+
+  .btn-primary:hover:not(:disabled) {
+    background-color: theme('colors.primary.600');
+    @apply shadow-md;
+  }
+
+  .btn-secondary {
+    @apply btn bg-white text-banquet-ink border border-banquet-peach shadow-sm;
+  }
+
+  .btn-secondary:hover:not(:disabled) {
+    @apply bg-banquet-cream border-banquet-muted/40;
+  }
+
+  .input {
+    @apply block w-full px-3 py-2.5 text-sm bg-white border border-banquet-peach rounded-lg;
+    color: theme('colors.banquet.ink');
+  }
+
+  .input:focus {
+    @apply outline-none border-banquet-red ring-2 ring-banquet-red/20;
+  }
+
+  .input-error {
+    @apply border-red-400 bg-red-50;
+  }
+
+  .label {
+    @apply block text-sm font-medium mb-1.5 text-banquet-ink;
+  }
+
+  .card {
+    @apply bg-white border border-banquet-peach rounded-xl p-5 shadow-card;
+  }
+
+  .card-accent {
+    @apply card border-l-4 border-l-banquet-red;
+  }
+
+  .panel {
+    @apply bg-white border border-banquet-peach rounded-xl shadow-card overflow-hidden;
+  }
+
+  .link-accent {
+    @apply text-banquet-red font-medium hover:underline;
+  }
+
+  .text-secondary {
+    @apply leading-relaxed;
+    font-size: 12px;
+    color: #006400;
+  }
+
+  .section-title {
+    @apply font-semibold mb-3 pb-2 border-b border-banquet-peach;
+    font-size: 18px;
+    color: #DAA520;
+  }
+
+  .sidebar-link {
+    @apply block px-3 py-2.5 mx-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700/80 hover:text-white transition-colors;
+  }
+
+  .sidebar-link-active {
+    @apply sidebar-link bg-banquet-red text-white font-medium shadow-sm;
+  }
+
+  .quality-badge {
+    @apply flex gap-3 items-start p-3 rounded-lg bg-banquet-cream/80 border border-banquet-peach;
+  }
+
+  .quality-badge-icon {
+    @apply shrink-0 w-10 h-10 flex items-center justify-center text-base rounded-full bg-banquet-red text-white;
+  }
+
+  .app-row {
+    @apply flex gap-4 p-4 bg-white hover:bg-rose-50/60 transition-colors;
+  }
+
+  .stat-pill {
+    @apply flex-1 min-w-[110px] card !p-4 text-center !mb-0;
+  }
+
+  .page-strip {
+    @apply bg-gradient-to-r from-banquet-red to-primary-600 text-white px-4 sm:px-6 py-4 rounded-xl mb-6 shadow-soft;
+  }
+}

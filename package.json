@@ -1,0 +1,10 @@
+{
+  "name": "banketam-exam",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Демонстрационный экзамен: портал Банкетам.Нет и прототип Код безопасности",
+  "scripts": {
+    "install:all": "npm run install:all --prefix \"Модули\"",
+    "dev": "npm run dev --prefix \"Модули\""
+  }
+}

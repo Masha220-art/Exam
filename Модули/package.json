@@ -1,0 +1,18 @@
+{
+  "name": "banketam-net",
+  "version": "1.0.0",
+  "description": "Банкетам.Нет — веб-портал бронирования банкетных залов и веранд",
+  "scripts": {
+    "install:all": "npm install && node scripts/setup-env.js && cd server && npm install && cd ../client && npm install",
+    "free-ports": "node scripts/free-ports.js",
+    "dev": "npm run free-ports && concurrently -k \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
