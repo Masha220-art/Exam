@@ -4,6 +4,5 @@ const Application = require('./Application');
 
 module.exports = {
   sequelize,
-  User,
-  Application
+  
 };

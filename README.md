@@ -65,10 +65,10 @@ npm run dev
 
 База данных
 
-![ER-диаграмма](Модули/database/er-diagram.drawio.png)
+![ER-диаграмма](Модули/database/ER diagram)
 
 - Схема: `Модули/database/init.sql`
-- Диаграмма: `Модули/database/er-diagram.drawio`
+- Диаграмма: `Модули/database/ER diagram`
 
 Медиафайлы портала
 
