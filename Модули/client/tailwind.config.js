@@ -15,7 +15,7 @@ export default {
         banquet: {
           gold: '#DAA520',
           peach: '#FFDAB9',
-          cream: '#FFFDD0',
+          cream: '#FFFFFF',
           red: '#DC143C',
           green: '#006400',
           ink: '#000000',

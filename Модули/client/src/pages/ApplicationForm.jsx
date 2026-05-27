@@ -170,7 +170,7 @@ export default function ApplicationForm() {
         return (
           <div key={field.name}>
             <label className="label">{field.label}</label>
-            <div className="space-y-2 border border-banquet-peach rounded-lg p-3 bg-banquet-cream/60">
+            <div className="space-y-2 border border-banquet-peach rounded-lg p-3 bg-white">
               {field.options.map(option => (
                 <label key={option.value} className="flex items-center gap-2 cursor-pointer">
                   <input

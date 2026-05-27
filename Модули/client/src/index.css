@@ -6,7 +6,7 @@
   body {
     @apply font-sans antialiased text-banquet-ink;
     font-size: 16px;
-    background-color: theme('colors.banquet.cream');
+    @apply bg-white;
   }
 
   h1 {
@@ -52,7 +52,7 @@
   }
 
   .btn-secondary:hover:not(:disabled) {
-    @apply bg-banquet-cream border-banquet-muted/40;
+    @apply bg-gray-50 border-banquet-muted/40;
   }
 
   .input {
@@ -109,7 +109,7 @@
   }
 
   .quality-badge {
-    @apply flex gap-3 items-start p-3 rounded-lg bg-banquet-cream/80 border border-banquet-peach;
+    @apply flex gap-3 items-start p-3 rounded-lg bg-white border border-banquet-peach;
   }
 
   .quality-badge-icon {

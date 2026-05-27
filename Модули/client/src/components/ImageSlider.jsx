@@ -59,7 +59,7 @@ export default function ImageSlider({ variant = 'default' }) {
 
   return (
     <div className="panel">
-      <div className="flex justify-between items-center px-4 py-2 bg-banquet-cream border-b border-banquet-peach text-sm">
+      <div className="flex justify-between items-center px-4 py-2 bg-white border-b border-banquet-peach text-sm">
         <span className="text-banquet-muted">Сейчас: <b className="text-banquet-ink">{sliderSlides[index].alt}</b></span>
         <span className="text-banquet-muted">{index + 1} / {sliderSlides.length}</span>
       </div>
@@ -77,10 +77,10 @@ export default function ImageSlider({ variant = 'default' }) {
         ))}
       </div>
       <div className="flex border-t border-banquet-peach divide-x divide-banquet-peach">
-        <button type="button" onClick={prev} className="flex-1 py-2.5 text-sm text-banquet-red hover:bg-banquet-cream font-medium">
+        <button type="button" onClick={prev} className="flex-1 py-2.5 text-sm text-banquet-red hover:bg-gray-50 font-medium">
           ← Назад
         </button>
-        <button type="button" onClick={next} className="flex-1 py-2.5 text-sm text-banquet-red hover:bg-banquet-cream font-medium">
+        <button type="button" onClick={next} className="flex-1 py-2.5 text-sm text-banquet-red hover:bg-gray-50 font-medium">
           Вперёд →
         </button>
       </div>

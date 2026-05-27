@@ -83,7 +83,7 @@ export default function Applications() {
             {applications.map((app, idx) => (
               <article
                 key={app.id}
-                className={clsx('app-row !border-0', idx % 2 === 1 && 'bg-banquet-cream/40')}
+                className={clsx('app-row !border-0', idx % 2 === 1 && 'bg-gray-50')}
               >
                 <div
                   className={clsx(

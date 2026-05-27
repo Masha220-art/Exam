@@ -24,7 +24,7 @@ export default function Dashboard() {
           <ImageSlider variant="hero" />
         </div>
 
-        <div className="flex flex-col bg-banquet-cream/50 lg:border-l border-banquet-peach">
+        <div className="flex flex-col bg-white lg:border-l border-banquet-peach">
           <ContactsBlock compact />
           <div className="flex-1 p-4 flex flex-col justify-center gap-2">
             <h3 className="text-banquet-red">Действия</h3>
@@ -59,7 +59,7 @@ export default function Dashboard() {
                 className="snap-start shrink-0 w-[180px] rounded-xl overflow-hidden border border-banquet-peach shadow-sm bg-white"
               >
                 <img src={room.img} alt={room.label} className="h-32 w-full object-cover" />
-                <p className="p-2.5 text-center text-sm font-medium text-banquet-red bg-banquet-cream">
+                <p className="p-2.5 text-center text-sm font-medium text-banquet-red bg-white">
                   {room.label}
                 </p>
               </article>

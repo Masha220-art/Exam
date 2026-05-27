@@ -2,7 +2,7 @@ import { photos } from '../config/images'
 
 export default function AuthLayout({ title, subtitle, children, image = photos.authDefault }) {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row bg-banquet-cream">
+    <div className="min-h-screen flex flex-col lg:flex-row bg-white">
       <div className="lg:w-[45%] relative min-h-[220px] lg:min-h-screen">
         <img src={image} alt="" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-banquet-ink/80 via-banquet-red/40 to-banquet-red/20" />

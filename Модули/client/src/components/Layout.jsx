@@ -33,7 +33,7 @@ export default function Layout() {
     userLinks.find((l) => isActive(l.to))?.label || config.title
 
   return (
-    <div className="min-h-screen flex bg-banquet-cream">
+    <div className="min-h-screen flex bg-white">
       <aside className="hidden lg:flex w-[230px] shrink-0 flex-col bg-banquet-ink text-white min-h-screen sticky top-0 h-screen shadow-soft">
         <div className="p-5 border-b border-white/10">
           <PageLogo className="h-12 w-12 rounded-lg mb-3 ring-2 ring-white/20" />
