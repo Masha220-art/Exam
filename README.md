@@ -83,20 +83,6 @@ npm run dev
 
 ## Модуль 4 — Код безопасности
 
-Я сверстала прототип мобильного приложения **430×932 px**: два экрана, HTML и CSS, сетка из четырёх колонок.  
-Тексты и структура — по файлу `Модуль/media/Текст.docx` из задания.
+Я создала прототип мобильного приложения **430×932 px**: два экрана, сетка из четырёх колонок.  
+Скриншоты находятся `Модуль/media/Screenshots` 
 
-### Скриншоты
-
-<p align="center"><strong>Экран 1 — Главная</strong></p>
-<p align="center">
-  <img src="Модуль/Screenshots/главная.png" width="320" alt="Главная">
-</p>
-
-<p align="center"><strong>Экран 2 — Продукты</strong></p>
-<p align="center">
-  <img src="Модуль/Screenshots/продукты1.png" width="320" alt="Продукты, верх">&nbsp;&nbsp;
-  <img src="Модуль/Screenshots/продукты2.png" width="320" alt="Продукты, низ">
-</p>
-
-GitHub: https://github.com/1inside1
