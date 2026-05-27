@@ -40,4 +40,7 @@ CREATE TRIGGER trg_users_updated_at
     BEFORE UPDATE ON users
     FOR EACH ROW EXECUTE FUNCTION set_updated_at();
 
-
+DROP TRIGGER IF EXISTS trg_applications_updated_at ON applications;
+CREATE TRIGGER trg_applications_updated_at
+    BEFORE UPDATE ON applications
+    FOR EACH ROW EXECUTE FUNCTION set_updated_at();
